@@ -1,1 +1,17 @@
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+body {
+  background-color: red;
+  background-image: url(img/"Robot.jpg");
+}
+.jumbotron {
+  background-color: yellow;
+}
+.panel-heading {
+  background-color: lightblue;
 
+}
