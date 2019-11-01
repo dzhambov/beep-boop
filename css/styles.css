@@ -1,5 +1,6 @@
 h1 {
   text-align: center;
+  text-shadow: 2px 2px #ff0000;
 }
 h3 {
   text-align: center;
@@ -7,11 +8,25 @@ h3 {
 body {
   background-color: red;
   background-image: url(img/"Robot.jpg");
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .jumbotron {
   background-color: yellow;
 }
 .panel-heading {
   background-color: lightblue;
-
+}
+#result {
+  font-size: 40px;
+  font-style: italic;
+}
+img{
+  image-size: 95%;
+}
+#button {
+  background-color: orange;
+  border:5px solid black;
 }
