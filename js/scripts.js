@@ -12,22 +12,16 @@ $(document).ready(function(){
 });
 // Business logic
 var beepBoop = function (number) {
-function beepBoop (number) {
-//   result = [];
-//   number = parseInt(number);
-//
-//
-//   for (var i = 0; i <=number; i++);
-//     if (i % 3 === 0) {
-//     result.push ("Sorry, You got Busted!");
-//
-//   } else if (i % 2 === 0) {
-//     result.push ("Boop!");
-//
-//   } else if (i % 1 === 0) {
-//     result.push ("Beep");
-//
-//   }
-// };
-};
+
+  for (var i = 0; i <= number; i++);
+    if (i % 3 === 0) {
+    return ("Sorry, You got Busted!");
+
+  } else if (i % 2 === 0) {
+    return ("Boop!");
+
+  } else if (i % 1 === 0) {
+    return ("Beep");
+
+  }
 };
