@@ -12,19 +12,23 @@ $(document).ready(function() {
 
 
 // Business logic
-var beepBoop = function (number) {
-  for (var i = 0; i < n; i+=1);{
+var beepBoop = function (number)  {
+  for (var i = 0; i < number; i+=1);{
 
     if (i === 3) {
     return ("Sorry, You got Busted!");
 
   } else if (i === 2) {
-    return ("Boop!");
+    return ("I say Boop!");
 
   } else if (i === 1) {
-    return ("Beep");
+    return ("You say Beep!");
+
+  }else if (i === number) {
+    return number + " Oops, try again! ";
+
+  }
 
   }
 return result;
-};
 };
