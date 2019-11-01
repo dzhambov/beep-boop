@@ -1,11 +1,11 @@
 
 // User interface logic
-$(document).ready(function(){
-  $("#user-number").submit(function(event){
+$(document).ready(function() {
+  $("#user-number").submit(function(event) {
     event.preventDefault();
     var number = parseInt($("input#number").val());
     var result = beepBoop(number);
-    // console.log();
+    console.log();
     $("#result").text(result);
   });
 });
@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 // Business logic
 var beepBoop = function (number) {
-  for (var i = 0; i <= number; i++);
+  for (var i = 0; i < n; i+=1);{
 
     if (i === 3) {
     return ("Sorry, You got Busted!");
@@ -25,4 +25,6 @@ var beepBoop = function (number) {
     return ("Beep");
 
   }
+return result;
+};
 };
