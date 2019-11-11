@@ -13,22 +13,17 @@ $(document).ready(function() {
 
 // Business logic
 var beepBoop = function (number)  {
-  for (var i = 0; i < number; i+=1);{
+  var arr = [];
+  for (var i = 0; i <= number; i++) {
 
-    if (i === 3) {
-    return ("Sorry, You got Busted!");
+    if (i.toString().includes("3")) {
+      arr.push("Sorry, You got Busted!");
+      } else if (i.toString().includes("2")) {
+        arr.push("I say Boop!");
+      } else if (i.toString().includes("1")) {
+        arr.push("You say Beep!");
 
-  } else if (i === 2) {
-    return ("I say Boop!");
-
-  } else if (i === 1) {
-    return ("You say Beep!");
-
-  }else if (i === number) {
-    return number + " Oops, try again! ";
-
+      }
   }
-
-  }
-return result;
+  return arr;
 };
